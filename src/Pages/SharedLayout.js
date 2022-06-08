@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 function SharedLayout() {
-   return <div>SharedLayout</div>;
+  return <div>SharedLayout</div>;
 }
 
 export default SharedLayout;
