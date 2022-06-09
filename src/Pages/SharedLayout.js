@@ -3,9 +3,10 @@ import Header from '../Components';
 
 function SharedLayout() {
   return (
-    <><Header /></>
+    <>
+      <Header />
+    </>
   );
-
 }
 
 export default SharedLayout;
