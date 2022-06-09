@@ -3,9 +3,7 @@ import Header from '../Components';
 
 function SharedLayout() {
   return (
-    <>
-      <Header />
-    </>
+    <><Header /></>
   );
 }
 
