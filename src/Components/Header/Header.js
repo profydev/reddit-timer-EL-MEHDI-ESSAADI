@@ -1,19 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './styles.module.scss';
-import logo from '../../Assets/logo.png';
+import { ReactComponent as Logo } from '../../Assets/logo.svg';
 
 function Header() {
   return (
     <header className={styles.header}>
       <Link to="/">
-        <img src={logo} alt="logo" />
+        <Logo />
       </Link>
       <nav>
         <ul className={styles.list}>
           <li><Link to="search">Search</Link></li>
-          <li><a href="#HowItWorks">How it works</a></li>
-          <li><a href="#About">About</a></li>
+          <li><a href="#how-it-works ">How it works</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
       </nav>
     </header>
