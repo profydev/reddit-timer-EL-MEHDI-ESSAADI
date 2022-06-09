@@ -5,6 +5,7 @@ function SharedLayout() {
   return (
     <><Header /></>
   );
+
 }
 
 export default SharedLayout;
