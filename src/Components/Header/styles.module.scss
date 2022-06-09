@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem clamp(1rem, 5.5vw, 5rem);;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  column-gap: 1.56rem;
+  
+  a {
+    padding: .4rem .5rem;
+  }
+}
