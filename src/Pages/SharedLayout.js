@@ -7,6 +7,7 @@ function SharedLayout() {
       <Header />
     </>
   );
+
 }
 
 export default SharedLayout;
