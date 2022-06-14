@@ -7,8 +7,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<SharedLayout />}>
-        <Route index />
-        <Route path="/search/javascript" />
+        <Route index element="home page" />
+        <Route element="search page" path="/search/javascript" />
       </Route>
     </Routes>
   );
